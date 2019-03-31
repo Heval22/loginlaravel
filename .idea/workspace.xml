@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b30794cc-37a3-4d89-ab3b-fd409d4b98d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,22 +62,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+        <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-              <folding>
-                <element signature="e#38#66#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            <state relative-caret-position="360">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -80,44 +73,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            <state relative-caret-position="210">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_31_162743_create_posts_table.php">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/ExampleTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="315">
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/factories/PostFactory.php">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/UserTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#30#49#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/ExampleTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/profile.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/RegisterTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="31" />
+              <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+              <folding>
+                <element signature="e#33#52#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,11 +136,15 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
-        <option value="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/factories/PostFactory.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_03_31_162743_create_posts_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/resources/views/profile.blade.php" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/ExampleTest.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/UserTest.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/RegisterTest.php" />
       </list>
     </option>
   </component>
@@ -150,8 +153,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="51" />
-    <option name="y" value="123" />
+    <option name="x" value="43" />
+    <option name="y" value="181" />
     <option name="width" value="2329" />
     <option name="height" value="1158" />
   </component>
@@ -202,12 +205,6 @@
               <item name="loginlaravel" type="b2602c69:ProjectViewProjectNode" />
               <item name="loginlaravel" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="loginlaravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="loginlaravel" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
               <item name="seeds" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -233,6 +230,23 @@
               <item name="loginlaravel" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="loginlaravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loginlaravel" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loginlaravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loginlaravel" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Feature" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loginlaravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loginlaravel" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Unit" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -243,7 +257,7 @@
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="database.console.LAST_STATE" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -288,7 +302,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554033995248</updated>
-      <workItem from="1554033998032" duration="21474000" />
+      <workItem from="1554033998032" duration="27864000" />
     </task>
     <task id="LOCAL-00001" summary="Project Setup - Seeding">
       <created>1554054261808</created>
@@ -325,18 +339,25 @@
       <option name="project" value="LOCAL" />
       <updated>1554055764885</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="read me file">
+      <created>1554056212347</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554056212348</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21474000" />
+    <option name="totallyTimeSpent" value="27864000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="123" width="2329" height="1158" extended-state="0" />
+    <frame x="43" y="181" width="2329" height="1158" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15155497" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15155497" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" weight="0.32944608" />
@@ -351,7 +372,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" visible="true" weight="0.14279456" />
+      <window_info anchor="right" id="Database" weight="0.14279456" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -361,19 +382,19 @@
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.15155497" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.24586977" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.24586977" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="3" weight="0.32944608" />
+      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32944608" />
       <window_info anchor="bottom" id="Database Console" order="5" weight="0.32944608" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32944608" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.32944608" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.32944608" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Database" order="0" visible="true" weight="0.14279456" />
+      <window_info anchor="right" id="Database" order="0" weight="0.14279456" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -412,7 +433,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Project Setup - Seeding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Setup - Seeding" />
+    <MESSAGE value="read me file" />
+    <option name="LAST_COMMIT_MESSAGE" value="read me file" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config/database.php">
@@ -452,13 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://cdec2721-6ded-4a5b-935c-b923d0069fd2/schema/main/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -473,31 +488,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Post.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_31_162743_create_posts_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://cdec2721-6ded-4a5b-935c-b923d0069fd2/schema/main/table/posts">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -508,13 +502,6 @@
           <folding>
             <element signature="e#38#66#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -529,6 +516,92 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_31_162743_create_posts_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/UserTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cdec2721-6ded-4a5b-935c-b923d0069fd2/schema/main/table/posts">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cdec2721-6ded-4a5b-935c-b923d0069fd2/schema/main/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/ExampleTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/ExampleTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/UserTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#30#49#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/RegisterTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding>
+            <element signature="e#33#52#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
