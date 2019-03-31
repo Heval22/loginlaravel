@@ -22,7 +22,7 @@ class UserTest extends TestCase
         $this->assertInternalType('string' ,$user->email);
         $this->assertInstanceOf('App\User' ,$user);
         $this->assertInternalType('string' ,$user->name);
-        $this->assertNull('string' ,$user->name);
+        $this->assertnotNull('string' ,$user->name);
 
 
 
