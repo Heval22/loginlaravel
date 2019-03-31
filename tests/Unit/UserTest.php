@@ -21,5 +21,10 @@ class UserTest extends TestCase
         $this->assertInternalType('int',$user->id);
         $this->assertInternalType('string' ,$user->email);
         $this->assertInstanceOf('App\User' ,$user);
+
+
+
+
+
     }
 }
