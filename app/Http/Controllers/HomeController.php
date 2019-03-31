@@ -30,8 +30,14 @@ class HomeController extends Controller
 
        # $user = User::find(2);
        # $user->delete();
-        $users = User::all();
+        // $users = User::all();
 
-        return view('profile',['users' => $users]);
+        $user = Auth::user();
+
+        $posts = $user->posts;
+
+
+
+        return view('profile', ['posts' => $posts]);
     }
 }
